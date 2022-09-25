@@ -1,3 +1,6 @@
+# Notes
+[Link](https://github.com/WilderDev/CodeLabs_Class-Notes_Front-End)
+
 # Exercises 
 [Link](https://github.com/cruzgerman216/Code-Labs-Front-end-Exercises)
 

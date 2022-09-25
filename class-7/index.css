@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+.todo {
+  padding: 1%;
+  width: 50%;
+  margin: 1% auto;
+  transition: .1s all;
+  border-radius: 10px;
+}
+
+.todo:hover {
+  padding: 2%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.completed {
+  background-color: lightgreen;
+}
+
+.completed:hover {
+  background-color: rgb(190, 255, 190);
+}
+
+.uncompleted {
+  background-color: rgb(255, 158, 158);
+}
+
+.uncompleted:hover {
+  background-color: rgb(255, 191, 191);
+}
+
+li {
+  list-style: none;
+}
+
+.options {
+  float: right;
+}
+
+.btn{
+  border: 0px;
+  cursor:pointer;
+}
+
+.active{
+  background-color: lightblue;
+}
+
+.delete{
+  background-color: red;
+}

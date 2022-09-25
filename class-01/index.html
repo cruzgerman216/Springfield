@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where To Get Tacos</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- Internal styling -->
+    <!-- <style>
+      h1{
+        font-size: 40px;
+      }
+
+      body{
+        background-color: purple;
+      }
+
+    </style> -->
+  </head>
+  <!-- Inline styling -->
+  <body>
+    <h1 style="font-size: 50px" onclick="changeBackground()">Where To Get Tacos!</h1>
+    <h2>Timmy's Tacos</h2>
+    <p>The kind of the best tacos in Springfield!</p>
+    <p>2322 S Campbell Ave, Springfield, MO 65807</p>
+    <button onclick="changeBackground()">Change background color to orange</button>
+  </body>
+  <script>
+    document.querySelector('body').style.backgroundColor = 'orange'
+    function changeBackground(){
+      document.querySelector('body').style.backgroundColor = 'orange'
+    }
+  </script>
+</html>
